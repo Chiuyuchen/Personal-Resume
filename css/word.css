@@ -1,0 +1,59 @@
+.word {
+  font-family: 標楷體;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+.word0 {
+  font-family: 標楷體;
+  font-size: 55px;
+  text-align: center;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+.word00 {
+  font-family: 標楷體;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+
+}
+
+.word1 {
+  font-family: 標楷體;
+  font-size: 26px;
+  text-align: center;
+
+  font-weight: bold;
+  color: whitesmoke;
+
+}
+
+.word2 {
+  font-family: 標楷體;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 10px;
+  color: black;
+}
+
+.word3 {
+  font-family: 仿宋體;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+}
+
+.word7 {
+  font-family: 仿宋體;
+  color: rgb(40, 54, 42);
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 10px, 10px, 10px gray;
+}

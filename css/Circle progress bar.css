@@ -1,0 +1,145 @@
+.pie {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  background: white, 0.5;
+  background-image: linear-gradient(to right, transparent 50%, silver 0);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes bg {
+  50% {
+    background: silver;
+  }
+}
+
+.pie::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+    bg 100s step-end infinite;
+  animation-delay: -40s;
+  animation-play-state: paused;
+}
+
+
+.pi {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 55px;
+  border-radius: 50%;
+  background: white, 0.5;
+  background-image: linear-gradient(to right, transparent 50%, silver 0);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes bg {
+  50% {
+    background: silver;
+  }
+}
+
+.pi::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+    bg 100s step-end infinite;
+  animation-delay: -55s;
+  animation-play-state: paused;
+}
+
+.p {
+  width: 100px;
+  height: 100px;
+  float: left;
+
+  margin-top: 50px;
+  border-radius: 50%;
+  background: white, 0.5;
+  background-image: linear-gradient(to right, transparent 50%, silver 0);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes bg {
+  50% {
+    background: silver;
+  }
+}
+
+.p::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+    bg 100s step-end infinite;
+  animation-delay: -60s;
+  animation-play-state: paused;
+}
+
+.pii {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 55px;
+  border-radius: 50%;
+  background: white, 0.5;
+  background-image: linear-gradient(to right, transparent 50%, silver 0);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(.5turn);
+  }
+}
+
+@keyframes bg {
+  50% {
+    background: silver;
+  }
+}
+
+.pii::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+    bg 100s step-end infinite;
+  animation-delay: -70s;
+  animation-play-state: paused;
+}

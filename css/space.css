@@ -1,0 +1,27 @@
+.space {
+  width: auto;
+  padding: 10px;
+
+  font-family: 微軟正黑體;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.space1 {
+
+  width: 280px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  line-height: 15px;
+}
+
+.fix {
+
+  position: fixed;
+
+
+}
