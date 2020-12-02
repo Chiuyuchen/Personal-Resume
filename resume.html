@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1">
-  <title>個人簡歷</title>
+  <title>Chiu Yu Chen</title>
 
 
   <style>
@@ -14,29 +14,7 @@
     @import url(css/Circle\ progress\ bar.css);
     @import url(css/space.css);
     @import url(css/timeline.css);
-
-    /* @media screen and (max-width: 600px) {
-      .content {
-
-        .head {
-          font-size: 16px;
-          width: 100%;
-        }
-
-        .body {
-          width: 100%;
-          text-align: center;
-        }
-
-        .Sidebar {
-
-          width: 150%;
-          text-align: center;
-
-        }
-      }
-    }*/
-
+    @import url(css/picture\ move.css);
 
     .content {
       width: 1000px;
@@ -46,6 +24,7 @@
 
     .head {
       text-align: center;
+      height: 30px;
       font-family: 仿宋體;
       padding: 10px;
       font-weight: bold;
@@ -75,16 +54,18 @@
     .body {
       margin-left: 60px;
       text-align: center;
-      width: 500px;
+      width: 700px;
       height: 825px;
       float: left;
       padding: 10px;
       margin: 10px;
+      margin-left: auto;
+      margin-right: auto;
       font-size: 24px;
       font-weight: bold;
-      background-image: url(img/b6.png);
+      background-image: url(img/b5.png);
       background-repeat: no-repeat;
-      background-size: 1420px;
+      background-size: cover;
       background-position: center;
 
     }
@@ -105,7 +86,7 @@
 
 <body style="margin:0px ;" class="comtent img6" background="img/bg1.jpg">
 
-  <div class=" head">我的簡歷</div>
+  <div class=" head"></div>
 
   <div class="content">
     <div class="Sidebar">
@@ -127,7 +108,7 @@
           <img class=" img3" src="img/instagram.png">
         </a>
 
-        <a href="https://www.facebook.com/profile.php?id=100002764760796" target="_blank">
+        <a href="https://www.facebook.com/chiuyc1018" target="_blank">
           <img class="img2" src="img/facebook.png">
         </a>
 
@@ -150,19 +131,19 @@
         <div class="space1">
           <div>
             <div class="word7">程式技能</div>
-            <hr color="	gold" align="left" width="120px" size="2">
-            <div class="bar learning" data-skill="JavaScript"></div>
-            <div class="bar back basic" data-skill="Python"></div>
-            <div class="bar back intermediate" data-skill="java"></div>
-            <div class="bar back intermediate" data-skill="C#"></div>
-            <div class="bar front advanced" data-skill="CSS"></div>
-            <div class="bar front expert" data-skill="HTML"></div>
+            <hr color="	red" align="left" width="120px" size="2">
+            <div class="bar learning" data-skill="JavaScript">35%</div>
+            <div class="bar back basic" data-skill="Python">45%</div>
+            <div class="bar back intermediate" data-skill="java">65%</div>
+            <div class="bar back intermediate" data-skill="C#">65%</div>
+            <div class="bar front advanced" data-skill="CSS">50%</div>
+            <div class="bar front expert" data-skill="HTML">85%</div>
           </div>
         </div>
       </div>
       <div class="space1">
-        <div style="text-shadow: 10px, 10px, 10px gray;" class="word7">專業技能</div>
-        <hr color="	gold" align="left" width="120px" size="2">
+        <div class="word7">專業技能</div>
+        <hr color="	red" align="left" width="120px" size="2">
         <div class="pie">
           <div class="word3">影片剪輯</div>
         </div>
@@ -181,7 +162,7 @@
       </div>
     </div>
   </div>
-
+  <!--時間軸-->
   <div class="content">
     <ul class="timeline">
       <li>
@@ -201,7 +182,7 @@
       <li>
         <div>
           <time datetime="2020-12-02">大一下</time>
-          <p class="word00">管理學</p>
+          <p class="word00">服務學習</p>
         </div>
       </li>
 
@@ -218,11 +199,308 @@
           <p class="word00">多媒體專案</p>
         </div>
       </li>
+      <li>
+        <div>
+          <time datetime="2020-12-02">大二上</time>
+          <p class="word00">unity雙人射擊遊戲</p>
+        </div>
+      </li>
     </ul>
   </div>
 
+  <div class="content">
+    <!--企業概論相簿-->
+    <div>
+      <ul class="slides">
+        <input type="radio" id="control-1" name="control" checked>
+        <input type="radio" id="control-2" name="control">
+        <input type="radio" id="control-3" name="control">
+        <input type="radio" id="control-4" name="control">
+        <input type="radio" id="control-5" name="control">
+        <input type="radio" id="control-6" name="control">
 
-  <footer>Tel：+886-908-301-135 | e-mail：vbp204@gmail.com<br>©Chiu Yu Chen</footer>
+        <div class="navigator slide-1">
+          <label for="control-3">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control-2">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide-2">
+          <label for="control-1">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control-3">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide-3">
+          <label for="control-2">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control-1">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <li class="slide">企業概論</li>
+        <li class="slide"></li>
+        <li class="slide"></li>
+        <li class="slide"></li>
+        <li class="slide"></li>
+        <li class="slide">企業概論</li>
+
+        <div class="controls-visible">
+          <label for="control-1"></label>
+          <label for="control-2"></label>
+          <label for="control-3"></label>
+          <label for="control-4"></label>
+          <label for="control-5"></label>
+          <label for="control-6"></label>
+        </div>
+      </ul>
+    </div>
+    <div>
+
+      <!----資管之夜的相簿---->
+      <ul class="slides2">
+        <input type="radio" id="control2-1" name="control2" checked>
+        <input type="radio" id="control2-2" name="control2">
+        <input type="radio" id="control2-3" name="control2">
+        <input type="radio" id="control2-4" name="control2">
+        <input type="radio" id="control2-5" name="control2">
+        <input type="radio" id="control2-6" name="control2">
+
+        <div class="navigator slide-1">
+          <label for="control2-3">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control2-2">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide2-2">
+          <label for="control2-1">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control2-3">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide2-3">
+          <label for="control2-2">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control2-1">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <li class="slide2">資管之夜</li>
+        <li class="slide2"></li>
+        <li class="slide2"></li>
+        <li class="slide2"></li>
+        <li class="slide2"></li>
+        <li class="slide2">資管之夜</li>
+
+        <div class="controls-visible">
+          <label for="control2-1"></label>
+          <label for="control2-2"></label>
+          <label for="control2-3"></label>
+          <label for="control2-4"></label>
+          <label for="control2-5"></label>
+          <label for="control2-6"></label>
+        </div>
+      </ul>
+    </div>
+
+    <!--管理學-->
+    <div>
+      <ul class="slides3">
+        <input type="radio" id="control3-1" name="control3" checked>
+        <input type="radio" id="control3-2" name="control3">
+        <input type="radio" id="control3-3" name="control3">
+        <input type="radio" id="control3-4" name="control3">
+        <input type="radio" id="control3-5" name="control3">
+        <input type="radio" id="control3-6" name="control3">
+
+        <div class="navigator slide3-1">
+          <label for="control3-3">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control3-2">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide3-2">
+          <label for="control3-1">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control3-3">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide3-3">
+          <label for="control3-2">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control3-1">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <li class="slide3">服務學習</li>
+        <li class="slide3"></li>
+        <li class="slide3"></li>
+        <li class="slide3"></li>
+        <li class="slide3"></li>
+        <li class="slide3">服務學習</li>
+
+        <div class="controls-visible">
+          <label for="control3-1"></label>
+          <label for="control3-2"></label>
+          <label for="control3-3"></label>
+          <label for="control3-4"></label>
+          <label for="control3-5"></label>
+          <label for="control3-6"></label>
+        </div>
+      </ul>
+    </div>
+
+    <!--多媒體的相簿-->
+    <div>
+      <ul class="slides4">
+        <input type="radio" id="control4-1" name="control4" checked>
+        <input type="radio" id="control4-2" name="control4">
+        <input type="radio" id="control4-3" name="control4">
+        <input type="radio" id="control4-4" name="control4">
+        <input type="radio" id="control4-5" name="control4">
+        <input type="radio" id="control4-6" name="control4">
+
+        <div class="navigator slide4-1">
+          <label for="control4-3">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control4-2">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide4-2">
+          <label for="control4-1">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control4-3">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <div class="navigator slide4-3">
+          <label for="control4-2">
+            <i class="fas fa-chevron-left"></i>
+          </label>
+          <label for="control4-1">
+            <i class="fas fa-chevron-right"></i>
+          </label>
+        </div>
+
+        <li class="slide4">多媒專案</li>
+        <li class="slide4"></li>
+        <li class="slide4"></li>
+        <li class="slide4">多媒體專案</li>
+
+        <div class="controls-visible">
+          <label for="control4-1"></label>
+          <label for="control4-2"></label>
+          <label for="control4-3"></label>
+          <label for="control4-4"></label>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <button class="accordion">企業概論</button>
+    <div class="panel">
+      <p class="word8">我在這堂課學到很多行銷手法、實際的商業知識，這是一般上課沒有辦法得到的經歷，為有實際動手做做看才知道的。
+        我們因蛋捲而相遇，也因蛋捲而分開。
+        我們因企概而認識到方舟、並與他們結緣，如今我們企概課也結束了，是我們互相道別的時候了，但道別不是分別，我們的羈絆還在，我會盡我最大的努力去幫助他們。<input type="button" value="網站"
+          onclick="self.location.href='https://k035884236.wixsite.com/website'" style="border-radius: 80px
+        ;border: none;">
+        <input type="button" value="報告"
+          onclick="self.location.href='https://drive.google.com/file/d/1G6eCgDJbv1XKR68f_Ep8BgxjZqLSKceO/view?usp=sharing'"
+          style="border-radius: 80px
+        ;border: none;">
+
+
+      </p>
+    </div>
+
+    <button class="accordion">資管之夜</button>
+    <div class="panel">
+      <p class="word8">
+        我們第一次經歷資管之夜，期中後都在忙著決定要開演的主題、角色的選擇，之後就開始編劇本，最後再做道具，我們都是第一次排演，大家也非常努力的練習。雖然中間也有一些不愉快的事情我們還是一起解決了。<br>最後我們也拿到了第三名!!!我們的努力沒有白費也建立自信心，覺得之後甚麼事都做得到這麼難的事我們都做到了，為這四年留下經典的回憶。
+        在最後大四得出來演出我感受到時光的流逝，感受到他們大一到大四的快速、心情、回憶。<br>
+        我將在中原大學留下美麗的回憶！！
+      </p>
+    </div>
+
+    <button class="accordion">服務學習</button>
+    <div class="panel">
+      <p class="word8">
+        這學期因為新冠病毒的關係無法實體服務，我們左思右想的找到了解決方法，那就是線上服務，我們透過IG讓更多人認識方舟啟智教養院，讓更多人們認識方舟在做什麼，還有讓大家認識老憨兒，不要用異樣的眼光看向他們，我們要讓大眾知道，他們跟我們是一樣的。
+        我們想幫助方舟打造出他們的知名度，讓更多人注意到他們。無論是不是方舟還是其他的慈善機構，我都希望他們都可以被注意到、讓更多人支持他們的所作所為。
+        <input type="button" value="點擊" onclick="self.location.href='https://www.instagram.com/cycu_im_team.1/'" style="border-radius: 80px
+        ;border: none;"> </p>
+      </p>
+    </div>
+    <button class="accordion">多媒專案</button>
+    <div class="panel">
+      <p class="word8">
+        透過了此次的專案，我理解光鮮亮麗的網站背後注入了多少心血，可能會發生口角爭執只因每個人都有不同的想法都為了讓網頁看得更加實用、互動性高、版面配置的精美度。製作者們不斷的摩合、討論，得出了最完美的作品。
+        我相信此次的專案是我大學四年都忘不了的回憶，每一步步都是通往成功的基石。<input type="button" value="點擊"
+          onclick="self.location.href='https://10840130.github.io/report/index.html'" style="border-radius: 80px
+        ;border: none;"> </p>
+    </div>
+
+    <button class="accordion">unity雙人射擊遊戲</button>
+    <div class="panel">
+      <p class="word8">
+        學到該怎麼使用Unity來製作3D射擊遊戲，之前學到製作3D物件及浮空投影。
+        每一個校細節都要兼顧到，如果沒有就會像破損的齒輪，運轉的不流暢。<input type="button" value="點擊"
+          onclick="self.location.href='https://youtu.be/BamG_i18hQ0'" style="border-radius: 80px
+        ;border: none;"> </p>
+    </div>
+
+
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </div>
+
+
+  <footer>Photo from：zh.pngtree.com<br>Tel：+886-908-301-135 | e-mail：vbp204@gmail.com<br>©Chiu Yu Chen</footer>
 </body>
 
 </html>

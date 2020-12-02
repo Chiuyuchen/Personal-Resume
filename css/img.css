@@ -40,5 +40,10 @@
   width: auto;
   height: auto;
   z-index: -1;
+}
 
+button {
+  color: aquamarine;
+  border: none;
+  border-radius: 80px;
 }

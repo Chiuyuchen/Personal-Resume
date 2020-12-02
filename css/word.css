@@ -52,8 +52,14 @@
 
 .word7 {
   font-family: 仿宋體;
-  color: rgb(40, 54, 42);
+  color: rgb(199, 33, 33);
   font-size: 28px;
   font-weight: bold;
   text-shadow: 10px, 10px, 10px gray;
+}
+
+.word8 {
+  color: rgb(77, 46, 6);
+  font-family: 標楷體;
+  font-size: 28px;
 }
