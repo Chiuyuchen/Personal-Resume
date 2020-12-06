@@ -4,7 +4,7 @@
   float: left;
   border-radius: 50%;
   background: white, 0.5;
-  background-image: linear-gradient(to right, transparent 50%, silver 0);
+  background-image: linear-gradient(to right, transparent 50%, rgb(70, 10, 10) 0);
 }
 
 @keyframes spin {
@@ -15,7 +15,7 @@
 
 @keyframes bg {
   50% {
-    background: silver;
+    background: rgb(70, 10, 10);
   }
 }
 
@@ -41,7 +41,7 @@
   margin-left: 55px;
   border-radius: 50%;
   background: white, 0.5;
-  background-image: linear-gradient(to right, transparent 50%, silver 0);
+  background-image: linear-gradient(to right, transparent 50%, rgb(70, 10, 10) 0);
 }
 
 @keyframes spin {
@@ -52,7 +52,7 @@
 
 @keyframes bg {
   50% {
-    background: silver;
+    background: rgb(70, 10, 10);
   }
 }
 
@@ -78,7 +78,7 @@
   margin-top: 50px;
   border-radius: 50%;
   background: white, 0.5;
-  background-image: linear-gradient(to right, transparent 50%, silver 0);
+  background-image: linear-gradient(to right, transparent 50%, rgb(70, 10, 10) 0);
 }
 
 @keyframes spin {
@@ -89,7 +89,7 @@
 
 @keyframes bg {
   50% {
-    background: silver;
+    background: rgb(70, 10, 10);
   }
 }
 
@@ -115,7 +115,7 @@
   margin-left: 55px;
   border-radius: 50%;
   background: white, 0.5;
-  background-image: linear-gradient(to right, transparent 50%, silver 0);
+  background-image: linear-gradient(to right, transparent 50%, rgb(70, 10, 10) 0);
 }
 
 @keyframes spin {
@@ -126,7 +126,7 @@
 
 @keyframes bg {
   50% {
-    background: silver;
+    background: rgb(70, 10, 10);
   }
 }
 
